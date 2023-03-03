@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is a sample portfolio built using React and BulmaCSS
 
 This project was bootstrapped with [let-me-react](https://github.com/Suvink/let-me-react).
 
