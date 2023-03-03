@@ -4,9 +4,8 @@ This project was bootstrapped with [let-me-react](https://github.com/Suvink/let-
 
 ## Available Scripts
 
-Please install react-scripts using 
+Please install react-scripts on the project directory to start or build
 ### `npm install react-scripts`
-in the project directory
 
 In the project directory, you can run:
 
