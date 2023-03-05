@@ -1,7 +1,7 @@
 import React from "react";
-import screenshot1 from './assets/screenshot-1.jpg';
-import screenshot2 from './assets/screenshot-2.jpg';
-import screenshot3 from './assets/screenshot-3.jpg';
+import screenshot1 from '../assets/screenshot-1.jpg';
+import screenshot2 from '../assets/screenshot-2.jpg';
+import screenshot3 from '../assets/screenshot-3.jpg';
 
 import "./index.css";
 
@@ -61,26 +61,26 @@ function Portfolio() {
           </div>
         </div>
 
-        <div class="column is-3 ">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-2by1">
+        <div className="column is-3 ">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
                 <img
                   src={screenshot3}
                   alt="Confusion with Bootstrap3"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left"></div>
-                <div class="media-content">
-                  <p class="title is-4">Restuarant Welcome Page</p>
-                  <p class="subtitle is-6">Bulma CSS Site</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-left"></div>
+                <div className="media-content">
+                  <p className="title is-4">Restuarant Welcome Page</p>
+                  <p className="subtitle is-6">Bulma CSS Site</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Restaurant website made with jQuery and Bulma CSS.
               </div>
             </div>
