@@ -8,7 +8,9 @@ function AboutMe() {
       <div className="hero-body columns">
         <div className="columns">
           <div className="column is-8 has-text-left is-align-self-center">
-            <h1 className="title has-text-white is-2 is-spaced">Kasun Hansamal</h1>
+            <h1 className="title has-text-white is-2 is-spaced">
+              Kasun Hansamal
+            </h1>
             <h2 className="title is-4 is-spaced has-text-white">
               Software Developer / Web Developer
             </h2>

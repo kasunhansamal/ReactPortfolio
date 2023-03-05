@@ -1,13 +1,16 @@
 import React from "react";
-import screenshot1 from '../assets/screenshot-1.jpg';
-import screenshot2 from '../assets/screenshot-2.jpg';
-import screenshot3 from '../assets/screenshot-3.jpg';
+import screenshot1 from "../assets/screenshot-1.jpg";
+import screenshot2 from "../assets/screenshot-2.jpg";
+import screenshot3 from "../assets/screenshot-3.jpg";
 
 import "./index.css";
 
 function Portfolio() {
   return (
-    <section className="main-content is-medium py-4 project-color" id="portfolio">
+    <section
+      className="main-content is-medium py-4 project-color"
+      id="portfolio"
+    >
       <h2 className="has-text-centered has-text-white title is-3">Projects</h2>
       <div className="columns is-centered">
         <div className="column is-3">
@@ -37,10 +40,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-image">
               <figure className="image is-2by1">
-                <img
-                  src={screenshot2}
-                  alt="Confusion with Angular 4"
-                />
+                <img src={screenshot2} alt="Confusion with Angular 4" />
               </figure>
             </div>
             <div className="card-content">
@@ -48,7 +48,9 @@ function Portfolio() {
                 <div className="media-left"></div>
                 <div className="media-content">
                   <p className="title is-4">Sales Tracking Web App</p>
-                  <p className="subtitle is-6">Angular 4 with Angular Material</p>
+                  <p className="subtitle is-6">
+                    Angular 4 with Angular Material
+                  </p>
                 </div>
               </div>
 
@@ -65,10 +67,7 @@ function Portfolio() {
           <div className="card">
             <div className="card-image">
               <figure className="image is-2by1">
-                <img
-                  src={screenshot3}
-                  alt="Confusion with Bootstrap3"
-                />
+                <img src={screenshot3} alt="Confusion with Bootstrap3" />
               </figure>
             </div>
             <div className="card-content">

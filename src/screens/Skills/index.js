@@ -16,11 +16,7 @@ function Skills() {
           </h4>
 
           <div className="progress">
-            <progress
-              className="progress is-link"
-              value="70"
-              max="100"
-            >
+            <progress className="progress is-link" value="70" max="100">
               70%
             </progress>
           </div>
@@ -31,11 +27,7 @@ function Skills() {
           </h4>
 
           <div className="progress">
-            <progress
-              className="progress is-link"
-              value="60"
-              max="100"
-            >
+            <progress className="progress is-link" value="60" max="100">
               60%
             </progress>
           </div>
@@ -45,11 +37,7 @@ function Skills() {
           </h4>
 
           <div className="progress">
-            <progress
-              className="progress is-link"
-              value="70"
-              max="100"
-            >
+            <progress className="progress is-link" value="70" max="100">
               70%
             </progress>
           </div>

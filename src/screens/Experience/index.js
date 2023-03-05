@@ -1,10 +1,12 @@
 import React from "react";
-import './index.css';
+import "./index.css";
 
 function Experience() {
   return (
     <section className="experience-section main-content is-medium py-4 exp-color">
-      <h2 className="has-text-centered has-text-white title is-3">Experience</h2>
+      <h2 className="has-text-centered has-text-white title is-3">
+        Experience
+      </h2>
       <div className="experience has-text-white">
         <div className="container">
           <div className="columns is-centered">
