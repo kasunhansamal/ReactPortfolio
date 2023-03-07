@@ -5,7 +5,11 @@ import "./index.css";
 function AboutMe() {
   return (
     <section className="hero is-medium hero-color" id="about-me">
-      <div className="hero-body columns">
+      <div
+        className="hero-body columns"
+        data-aos="fade-up"
+        data-aos-delay={100}
+      >
         <div className="columns">
           <div className="column is-8 has-text-left is-align-self-center">
             <h1 className="title has-text-white is-2 is-spaced">
@@ -24,7 +28,11 @@ function AboutMe() {
               responsive websites and creating web applications.
             </p>
           </div>
-          <div className="column is-4 is-align-self-center">
+          <div
+            className="column is-4 is-align-self-center"
+            data-aos="fade-up"
+            data-aos-delay={100}
+          >
             <img className="hero-image" src={ProfileImage}></img>
           </div>
         </div>

@@ -12,7 +12,11 @@ function Portfolio() {
       id="portfolio"
     >
       <h2 className="has-text-centered has-text-white title is-3">Projects</h2>
-      <div className="columns is-centered">
+      <div
+        className="columns is-centered"
+        data-aos="fade-up"
+        data-aos-delay={100}
+      >
         <div className="column is-3">
           <div className="card">
             <div className="card-image">

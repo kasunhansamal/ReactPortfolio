@@ -7,7 +7,11 @@ function Experience() {
       <h2 className="has-text-centered has-text-white title is-3">
         Experience
       </h2>
-      <div className="experience has-text-white">
+      <div
+        className="experience has-text-white"
+        data-aos="fade-up"
+        data-aos-delay={100}
+      >
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-4 ">
